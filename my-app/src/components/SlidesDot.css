@@ -1,0 +1,18 @@
+.all-dot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.active-dot {
+    background: red;
+}
